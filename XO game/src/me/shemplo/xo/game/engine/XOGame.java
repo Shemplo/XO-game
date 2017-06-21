@@ -39,6 +39,7 @@ public class XOGame {
 		this.real = new Point (0, 0);
 		this.finished = false;
 		this.previous = null;
+		this.turn = 0;
 	}
 	
 	public void moveCenter (double dx, double dy) {
@@ -129,6 +130,7 @@ public class XOGame {
 			if (line.size () + 1 >= 5) {
 				this.line = new ArrayList <> (line);
 				finished = true;
+				break;
 			}
 		}
 	}
