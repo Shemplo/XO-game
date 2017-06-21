@@ -1,0 +1,4 @@
+/bin/
+.[^g]*
+*.jar
+*.jar.txt
